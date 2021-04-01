@@ -1,0 +1,99 @@
+html {
+    font-family: "Segoe UI Light";
+    letter-spacing: 0.06vw;
+    color: #fff;
+    overflow: hidden;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    user-select: none;
+    outline: none;
+}
+
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('fonts/Segoe-UI-Light.eot');
+    src: url('fonts/Segoe-UI-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Segoe-UI-Light.woff2') format('woff2'),
+         url('fonts/Segoe-UI-Light.woff') format('woff'),
+         url('fonts/Segoe-UI-Light.ttf')  format('truetype'),
+         url('fonts/Segoe-UI-Light.svg#Segoe UI Light 8') format('svg');
+}
+
+#fullCover {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: 999;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+#container {
+    display: block;
+    position: fixed;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 70%;
+}
+
+#sphere {
+    float: left;
+    width: 25vw;
+    height: auto;
+}
+
+#textContainer {
+    float: left;
+    transform: translate(0%, 35%);
+
+    width: 60%;
+    height: auto;
+}
+
+#novadrome {
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 2.8vw;
+}
+
+#description {
+    font-size: 1.35vw;
+    color: #eee;
+}
+
+#socials {
+    position: fixed;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    padding: 1em;
+
+    width: auto;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+svg {
+    transition: stroke 0.1s ease-in-out;
+    margin-right: 1.5em;
+}
+
+svg:hover {
+    stroke: #fff;
+    cursor: pointer;
+}
+
+/*add dark + light theme to site; specified light mode classes for element-types, append when activated, remove when not*/
+
+
+
+
+
