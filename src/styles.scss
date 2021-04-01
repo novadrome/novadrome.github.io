@@ -3,9 +3,6 @@ html {
     letter-spacing: 0.06vw;
     color: #fff;
     overflow: hidden;
-
-    width: 100vw;
-    height: 100vh;
     background-color: #000;
     user-select: none;
     outline: none;
@@ -37,7 +34,6 @@ html {
     top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     width: 70%;
 }
 
@@ -50,7 +46,6 @@ html {
 #textContainer {
     float: left;
     transform: translate(0%, 35%);
-
     width: 60%;
     height: auto;
 }
@@ -72,9 +67,6 @@ html {
     left: 50%;
     transform: translate(-50%, -100%);
     padding: 1em;
-
-    width: auto;
-    height: auto;
 }
 
 a {
@@ -84,16 +76,10 @@ a {
 svg {
     transition: stroke 0.1s ease-in-out;
     margin-right: 1.5em;
-}
-
-svg:hover {
-    stroke: #fff;
-    cursor: pointer;
+    &:hover {
+        stroke: #fff;
+        cursor: pointer;
+    }
 }
 
 /*add dark + light theme to site; specified light mode classes for element-types, append when activated, remove when not*/
-
-
-
-
-
