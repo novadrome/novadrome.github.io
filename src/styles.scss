@@ -10,12 +10,12 @@ html {
 
 @font-face {
     font-family: 'Segoe UI Light';
-    src: url('fonts/Segoe-UI-Light.eot');
-    src: url('fonts/Segoe-UI-Light.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Segoe-UI-Light.woff2') format('woff2'),
-         url('fonts/Segoe-UI-Light.woff') format('woff'),
-         url('fonts/Segoe-UI-Light.ttf')  format('truetype'),
-         url('fonts/Segoe-UI-Light.svg#Segoe UI Light 8') format('svg');
+    src: url('./fonts/Segoe-UI-Light.eot');
+    src: url('./fonts/Segoe-UI-Light.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Segoe-UI-Light.woff2') format('woff2'),
+         url('./fonts/Segoe-UI-Light.woff') format('woff'),
+         url('./fonts/Segoe-UI-Light.ttf')  format('truetype'),
+         url('./fonts/Segoe-UI-Light.svg#Segoe UI Light') format('svg');
 }
 
 #fullCover {
