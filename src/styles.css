@@ -5,7 +5,6 @@ html {
     overflow: hidden;
     background-color: #000;
     outline: none;
-    pointer-events: none;
 }
 
 @font-face {
@@ -35,6 +34,7 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
+    pointer-events: none;
 }
 
 #sphere {
@@ -75,10 +75,11 @@ a {
 svg {
     transition: stroke 0.1s ease-in-out;
     margin-right: 1.5em;
-    &:hover {
-        stroke: #fff;
-        cursor: pointer;
-    }
+}
+
+svg:hover {
+    stroke: #fff;
+    cursor: pointer;
 }
 
 /*add dark + light theme to site; specified light mode classes for element-types, append when activated, remove when not*/
