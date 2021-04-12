@@ -73,13 +73,14 @@ a {
 }
 
 svg {
-    transition: stroke 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     margin-right: 1.5em;
 }
 
 svg:hover {
     stroke: #fff;
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 /*add dark + light theme to site; specified light mode classes for element-types, append when activated, remove when not*/
